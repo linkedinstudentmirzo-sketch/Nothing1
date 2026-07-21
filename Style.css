@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;  
+    align-items: center;       
+    margin-top: 75px;
+    background-color: #f5f5f5; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Eater&family=Homemade+Apple&family=Monoton&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+.form {
+    width: 500px;
+    height: 600px;
+    background-image: url("https://img.magnific.com/free-vector/colorful-background-with-pink-blue-color_125964-1618.jpg?semt=ais_hybrid&w=740&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 40px;
+    border-radius: 20px;
+    
+}
+
+.form__title {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: "Eater", serif;
+    color: yellow;
+}
+
+.form__subtitle {
+    color: blue;
+    font-size: 30px;
+    font-family: "Monoton", sans-serif;
+    margin-bottom: 10px;
+}
+
+.form__label {
+    display: block;
+    color: orange;
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+
+.form__input {
+    width: 400px;
+    height: 40px;
+    background-color: #82d0d0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 15px;
+    border-radius: 30px;
+    margin: 0 auto 20px;
+}
+
+.icon {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+}
+
+.form__input--input {
+    flex: 1;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+}
+
+.form__remember {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form__remember label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.Github{
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 50px;
+
+}
+
+
+
+.Sign{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-left: 150px;
+}
+
+
+
